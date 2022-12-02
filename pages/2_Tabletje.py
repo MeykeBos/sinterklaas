@@ -183,7 +183,7 @@ def HangMan():
             elif hm.hm_word in jasper:
                 st.warning("De echte geconcentreerde studenten-look! Maar wel eentje die thuis woont en niet elke avond peperkoek met corned beef eet.", icon="⚠️")
                 image_jasper = Image.open(
-                    '/images/tough-looking-red-rooster-boss-chicken.jpg')
+                    'tough-looking-red-rooster-boss-chicken.jpg')
                 st.image(image_jasper)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen...")
