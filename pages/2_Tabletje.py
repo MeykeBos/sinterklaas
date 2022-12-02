@@ -126,7 +126,7 @@ def HangMan():
 
             elif hm.hm_word in dj:
                 st.warning("Potentie... zeker... Maar je haar heeft duidelijk de zout-water look nodig... ", icon="⚠️")
-                image_dj = Image.open('/images/2016-03-08_FSOR__Rod_Stewart__DSC6183_CREDIT_Farm_Sanctuary-1-1187x1600.jpg')
+                image_dj = Image.open('2016-03-08_FSOR__Rod_Stewart__DSC6183_CREDIT_Farm_Sanctuary-1-1187x1600.jpg')
                 st.image(image_dj)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een Haan met een good hair day het proberen...")
