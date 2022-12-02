@@ -112,15 +112,15 @@ def HangMan():
                 col1, col2, col3 = st.columns(3)
 
                 with col1:
-                    image1 = Image.open("/images/Julie.jpeg")
+                    image1 = Image.open("Julie.jpeg")
                     st.image(image1)
 
                 with col2:
-                    image2 = Image.open("/images/Julie2.jpg")
+                    image2 = Image.open("Julie2.jpg")
                     st.image(image2)
 
                 with col3:
-                    image3 = Image.open("/images/Julie3.jpg")
+                    image3 = Image.open("Julie3.jpg")
                     st.image(image3)
                 b_reset = st.button("🛑 Ga snel naar 'Kado'")
 
@@ -142,7 +142,7 @@ def HangMan():
             elif hm.hm_word in sander:
                 st.warning("Jong, stoer, sterk, ogenschijnlijk een echte zeebonk... Maar vandaag zoeken we een 'bovenwater Haan'", icon="⚠️")
                 image_sander = Image.open(
-                    '/images/nat.jpg')
+                    'nat.jpg')
                 st.image(image_sander)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een landrot exemplaar het proberen...")
