@@ -134,7 +134,7 @@ def HangMan():
             elif hm.hm_word in annet:
                 st.warning("Prachtig mooi! Wonderbaarlijk zelfs... Maar niet de Haan die we zoeken... ", icon="⚠️")
                 image_annet = Image.open(
-                    '/images/fc794943954423e0a6a21e58ea8a11f4.jpg')
+                    'fc794943954423e0a6a21e58ea8a11f4.jpg')
                 st.image(image_annet)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen...")
@@ -151,7 +151,7 @@ def HangMan():
                 st.warning("Een duidelijke Haanen-neus en een ietwat serieuze 'look', zeer fraai. "
                            "Maar we zoeken een Haan die zichzelf zeer graag bewondert.", icon="⚠️")
                 image_sabine = Image.open(
-                    '/images/HensandRoosters-AlextenNapel-NEDERLANDSE.BAARDKUIFHOEN.-ROOSTER32017.jpg')
+                    'HensandRoosters-AlextenNapel-NEDERLANDSE.BAARDKUIFHOEN.-ROOSTER32017.jpg')
                 st.image(image_sabine)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen...")
@@ -159,7 +159,7 @@ def HangMan():
             elif hm.hm_word in ida:
                 st.warning("Juist, juist... gefocust, recht door zee. Superbe, voortreffelijk! Maar we zoeken toch nog net iets anders...", icon="⚠️")
                 image_ida = Image.open(
-                    '/images/0eb959958fee025e868bbdc05973fd9a.jpg')
+                    '0eb959958fee025e868bbdc05973fd9a.jpg')
                 st.image(image_ida)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat ander gevogelte het nu proberen...")
@@ -167,7 +167,7 @@ def HangMan():
             elif hm.hm_word in hanneke:
                 st.warning("Wat een fraaie Opper-Haan! Maar op deze leeftijd doe je mee voor andere prijzen :)", icon="⚠️")
                 image_hanneke = Image.open(
-                    '/images/rooster.webp')
+                    'rooster.webp')
                 st.image(image_hanneke)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen... Wellicht een iets jeugdiger exemplaar..?")
@@ -175,7 +175,7 @@ def HangMan():
             elif hm.hm_word in ciska:
                 st.warning("Ja, duidelijk ook een echte zeevrouw! Twee zeilvakanties doen een Haan duidelijk goed! Maar helaas...", icon="⚠️")
                 image_ciska = Image.open(
-                    '/images/rooster-edited.webp')
+                    'rooster-edited.webp')
                 st.image(image_ciska)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen... Heeft je broertje al geprobeerd?")
@@ -192,7 +192,7 @@ def HangMan():
                 st.warning("Ja, hier hebben we duidelijk te maken met een vooraanstaande Haan! "
                            "Nog maar even en ook jij hoeft niet meer voor het geld te kraaien.", icon="⚠️")
                 image_fred = Image.open(
-                    '/images/header_essay-this-one-gettyimages-764854961_high.jpg')
+                    'header_essay-this-one-gettyimages-764854961_high.jpg')
                 st.image(image_fred)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere -jongere- Haan het proberen... ")
@@ -201,7 +201,7 @@ def HangMan():
                 st.warning("Ja, ja, ja... een echte ware Haan. Prachtige neus, wonderschone kin... "
                            "Maar helaas zoeken we een surprise-knutselende Haan vandaag.", icon="⚠️")
                 image_jolanda = Image.open(
-                    '/images/7LGATJPHINGLRHRD2B7RZOLEV4.jpg')
+                    '7LGATJPHINGLRHRD2B7RZOLEV4.jpg')
                 st.image(image_jolanda)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Jammer dat je kinderen er niet zijn, die hadden zeker hoge ogen gegooid in dit tournament... "
@@ -211,7 +211,7 @@ def HangMan():
                 st.warning("Oei-joei-joei Jelle! Een verse Haan... Zeker knap, maar niet de Haan die ik zoek. "
                            "Misschien moet je de volgende keer proberen, een andere camerahoek...", icon="⚠️")
                 image_jelle = Image.open(
-                    '/images/scale.webp')
+                    'scale.webp')
                 st.image(image_jelle)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen...")
@@ -219,7 +219,7 @@ def HangMan():
             elif hm.hm_word in meyke:
                 st.warning("Juist... zeer fraai, wel een look ietwat overspannen. Komt dat door de kinderen.. kun je ze af en toe niet naar Spanje verbannen? ", icon="⚠️")
                 image_meyke = Image.open(
-                    '/images/rooster-1.webp')
+                    'rooster-1.webp')
                 st.image(image_meyke)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat anderen het toch maar proberen... ")
@@ -227,7 +227,7 @@ def HangMan():
             elif hm.hm_word in lode:
                 st.warning("Ohhhh, zo knap en scheetig! En wat een prachtig haar! Zonder twijfel de mooiste kleuter uit deze familie... echt waar!", icon="⚠️")
                 image_lode = Image.open(
-                    '/images/lode.webp')
+                    'lode.webp')
                 st.image(image_lode)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een andere Haan het proberen... Heeft je vader al een poging gewaagd..?")
@@ -235,7 +235,7 @@ def HangMan():
             else:
                 st.warning("Jij bent denk ik geen Haan, je mist de typische verfijnde Haanen-look! En komt niet voor in mijn grote boek!")
                 image_non = Image.open(
-                    '/images/andere_haan.jpeg')
+                    'andere_haan.jpeg')
                 st.image(image_non)
                 st.session_state["name_input"] = hm.hm_word
                 b_reset = st.button("🛑 Laat een ECHTE Haan het proberen...")
