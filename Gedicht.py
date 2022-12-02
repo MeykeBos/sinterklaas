@@ -80,6 +80,6 @@ def draw_main_page():
     st.write('''Wij wensen een iedere Haan een hoop succes!''')
     st.write('''Hartelijke groeten, ook namens mijn Pieten, de Sint''')
 
-    image = Image.open('group_pic.jpeg')
+    image = Image.open('Group_pic.jpeg')
     st.image(image, caption='Bewijslast: Haanen in volle glorie...')
 draw_main_page()
