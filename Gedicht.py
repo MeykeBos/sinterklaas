@@ -80,6 +80,6 @@ def draw_main_page():
     st.write('''Wij wensen een iedere Haan een hoop succes!''')
     st.write('''Hartelijke groeten, ook namens mijn Pieten, de Sint''')
 
-    image = Image.open('https://github.com/MeykeBos/sinterklaas/blob/main/images/0eb959958fee025e868bbdc05973fd9a.jpg')
+    image = Image.open('https://github.com/MeykeBos/sinterklaas/blob/main/images/0eb959958fee025e868bbdc05973fd9a.jpg?raw=true')
     st.image(image, caption='Bewijslast: Haanen in volle glorie...')
 draw_main_page()
